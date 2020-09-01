@@ -1,3 +1,5 @@
 .lead__gallery {
-    margin: 0 auto;
+    width: calc(100% - 296px);
+    height: 100%;
+    margin: 0 148px;
 }
