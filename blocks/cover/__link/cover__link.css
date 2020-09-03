@@ -1,4 +1,5 @@
 .cover__link {
+    width: 100%;
     min-height: 740px;
     display: flex;
     flex-direction: column;
@@ -7,6 +8,8 @@
     gap: 32px;
     color: #fff;
     text-decoration-line: none;
+    background: #2A2C2F;
+    opacity: .3;
 }
 
 .cover__link:hover {

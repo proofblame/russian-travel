@@ -1,5 +1,4 @@
 .intro {
-    padding-top: 92px;
-    padding-left: 100px;
-    margin: 0 auto;
+    max-width: 984px;
+    margin: 0 auto 92px;
 }
