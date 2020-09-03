@@ -11,3 +11,7 @@
 .footer__link:last-child {
     margin-right: 0;
 }
+
+.footer__link:hover {
+    opacity: .8;
+}

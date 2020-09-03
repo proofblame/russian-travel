@@ -5,13 +5,10 @@
     align-items: flex-end;
     column-gap: 48px;
     row-gap: 40px;
-    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 100px;
 }
 
 .place:last-child {
-    margin-bottom: 92px;
-}
-
-.place:first-child {
-    margin-top: 92px
+    margin-bottom: 0;
 }
