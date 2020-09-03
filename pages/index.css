@@ -3,11 +3,203 @@
 /* --root-- */
 
 @import url(../blocks/root/root.css);
+/* --page-- */
+@import url(../blocks/page/page.css);
 
 /* --header-- */
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__items/header__items.css);
-@import url(../blocks/header/__item/header__item.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__link/header__link.css);
 
+/* --lead-- */
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__gallery/lead__gallery.css); /* Объединить стили списков ul */
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* --intro-- */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__lists/intro__lists.css); /* Объединить стили списков ul */
+@import url(../blocks/intro/__list/intro__list.css);
+
+/* --photo-grid-- */
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__items/photo-grid__items.css); /* Объединить стили списков ul */
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+
+/* --places-- */
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__content/place__content.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* --cover-- */
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/* --footer-- */
+@import url(../blocks//footer/footer.css);
+@import url(../blocks//footer/__links/footer__links.css); /* Объединить стили списков ul */
+@import url(../blocks//footer/__copyright/footer__copyright.css);
+@import url(../blocks//footer/__link/footer__link.css);
+
+/* --100-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Thin.woff") format("woff"),
+    url("../fonts/Inter/Inter-Thin.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 100;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-ThinItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-ThinItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 100;
+}
+
+/* --200-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-ExtraLight.woff") format("woff"),
+    url("../fonts/Inter/Inter-ExtraLight.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter//Inter-ExtraLightItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-ExtraLightItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* --300-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Light.woff") format("woff"),
+    url("../fonts/Inter/Inter-Light.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-LightItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-LightItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* --400-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Regular.woff") format("woff"),
+    url("../fonts/Inter/Inter-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* --500-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Medium.woff") format("woff"),
+    url("../fonts/Inter/Inter-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-MediumItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-MediumItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* --600-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-SemiBold.woff") format("woff"),
+    url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter//Inter-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* --700-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Bold.woff") format("woff"),
+    url("../fonts/Inter/Inter-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-BoldItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-BoldItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* --800-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-ExtraBold.woff") format("woff"),
+    url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-ExtraBoldItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 800;
+}
+
+/* --900-- */
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-Black.woff") format("woff"),
+    url("../fonts/Inter/Inter-Black.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-BlackItalic.woff") format("woff"),
+    url("../fonts/Inter/Inter-BlackItalic.woff2") format("woff2");
+    font-style: italic;
+    font-weight: 900;
+}
+
+* {
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+}

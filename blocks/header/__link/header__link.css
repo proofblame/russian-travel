@@ -1,6 +1,6 @@
 .header__link {
-    text-decoration: underline;
-    color: #fff;
+    margin-right: auto;
+    text-decoration-line: none;
 }
 
 .header__link:hover {

@@ -1,6 +1,9 @@
 .header {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 28px 48px 56px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    column-gap: 18px;
+    flex-wrap: wrap;
+    max-width: 1184px;
+    margin: 0 auto 56px ;
 }
