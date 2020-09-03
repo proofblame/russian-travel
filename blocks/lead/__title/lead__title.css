@@ -3,7 +3,7 @@
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
-    width: 720px;
-    height: 200px;
-    margin: 56px 0 32px;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 32px;
 }

@@ -1,9 +1,0 @@
-.footer__items {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    column-gap: 18px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}

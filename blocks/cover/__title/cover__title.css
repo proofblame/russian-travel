@@ -1,8 +1,8 @@
 .cover__title {
+    max-width: 560px;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     /* or 106% */
-
     text-align: center;
 }

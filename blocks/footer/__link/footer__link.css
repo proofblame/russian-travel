@@ -5,4 +5,9 @@
     /* identical to box height, or 112% */
     color: #fff;
     text-decoration: none;
+    margin-right: 18px;
+}
+
+.footer__link:last-child {
+    margin-right: 0;
 }
