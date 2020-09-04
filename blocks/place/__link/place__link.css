@@ -2,12 +2,16 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    /* identical to box height, or 122% */
-
     text-decoration-line: underline;
     color: #fff;
 }
 
 .place__link:hover {
     opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+    .place__link {
+        display: none;
+    } 
 }

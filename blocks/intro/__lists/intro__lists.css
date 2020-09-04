@@ -2,5 +2,10 @@
     margin: 0;
     padding: 0;
     max-width: 690px;
-    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+    .intro__lists {
+        max-width: 720px;
+    }
 }

@@ -5,3 +5,26 @@
     max-width: 1184px;
     margin: 0 auto 24px;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer {
+        max-width: 928px;
+        margin: 0 auto 24px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        max-width: 720px;
+        margin: 0 auto 24px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        row-gap: 48px;
+        padding-left: 24px;
+    } 
+}

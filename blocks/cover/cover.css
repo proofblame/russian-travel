@@ -1,9 +1,46 @@
 .cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 740px;
     max-width: 1184px;
-    max-height: 740px;
     margin: 0 auto 92px;
+    position: relative;
+    /* падинги и бокс-сайзинг: бордер бокс после настройки шрифтов */
+}
+
+.cover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #2a2c2f;
+    opacity: 0.3;
+    transition: opacity 0.3s;
+
+}
+
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        min-height: 200px;
+        margin-bottom: 64px;
+    }
 }
