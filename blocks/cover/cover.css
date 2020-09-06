@@ -9,11 +9,12 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 740px;
-    max-width: 1184px;
+    max-width: 100%;
     margin: 0 auto 92px;
     position: relative;
     /* падинги и бокс-сайзинг: бордер бокс после настройки шрифтов */
 }
+
 
 .cover::before {
     content: "";
@@ -25,22 +26,33 @@
     background: #2a2c2f;
     opacity: 0.3;
     transition: opacity 0.3s;
-
 }
 
 .cover:hover::before {
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
-        min-height: 640px;
+        min-height: calc(100vw / 1.6);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .cover:hover::before {
+        opacity: 0.3;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
-        min-height: 200px;
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .cover {
         margin-bottom: 64px;
     }
 }

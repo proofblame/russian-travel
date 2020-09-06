@@ -9,15 +9,12 @@
 @media screen and (max-width: 1279px) {
     .photo-grid {
         gap: 16px;
-        max-width: 100%;
         margin: 0 48px 92px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
-        gap: 16px;
-        max-width: 100%;
         margin: 0 24px 88px;
     } 
 }
@@ -25,9 +22,6 @@
 @media screen and (max-width: 767px) {
     .photo-grid {
         gap: 12px;
-        max-width: 100%;
         margin: 0 16px 64px;
-
-
     } 
 }

@@ -1,6 +1,7 @@
-.place__content {
+/* .place__content {
     display: flex;
     column-gap: 40px;
+    align-items: flex-start;
 }
 @media screen and (max-width: 1279px) {
     .place__content {
@@ -14,8 +15,8 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 611px) {
     .place__content {
         row-gap: 32px;
-        
-}
+        flex-wrap: wrap;
+} */
