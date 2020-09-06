@@ -3,15 +3,22 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
-    max-width: 50%;
+    /* max-width: 460px; */
+    max-width: 100%;
     
 }
 
-@media screen and (max-width: 1278px) {
+/* @media screen and (max-width: 1080px) {
     .place__title {
         max-width: calc((100vw - 48px * 2) / 2);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        max-width: calc((100vw - 24px * 2) / 2);
+    }
+} */
 /*
 @media screen and (max-width: 1023px) {
     .place__title {

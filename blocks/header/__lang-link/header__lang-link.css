@@ -2,15 +2,21 @@
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    /* identical to box height, or 117% */
     text-decoration-line: underline;
     color: #fff;
 }
 
 .header__lang-link:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 .header__lang-link:last-child {
     text-decoration-line: none;
+}
+
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

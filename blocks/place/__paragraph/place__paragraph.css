@@ -5,11 +5,20 @@
     /* or 29px */
     margin: 0;
     margin-bottom: 24px;
+    /* max-width: 484px; */
+    /* height: min-content; */
 }
 
 .place__paragraph:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1080px) {
+    .places {
+        max-width: calc(100vw - 48px * 2);
+    }
+}
+
 
 @media screen and (max-width: 611px) {
     .place__paragraph {
