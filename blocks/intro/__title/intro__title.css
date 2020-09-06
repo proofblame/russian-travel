@@ -2,20 +2,16 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-    max-width: 690px;
     margin: 0;
     margin-bottom: 40px;
+    max-width: 720px;
 }
 
-@media screen and (max-width: 846px) {
+@media screen and (max-width: 736px) {
     .intro__title {
-        max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .intro__title {
+        max-width: calc(100vw - 16px * 2);
         font-size: 32px;
         line-height: 35px;
     }
 }
+
