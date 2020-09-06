@@ -2,29 +2,20 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    /* identical to box height, or 112% */
     color: #fff;
     text-decoration: none;
-    margin-right: 18px;
-}
-
-.footer__link:last-child {
-    margin-right: 0;
 }
 
 .footer__link:hover {
     opacity: .8;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 736px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;  
     }
 
-    .footer__link:last-child {
-        margin-right: 18px;
-    }
     .footer__link:hover {
         opacity: 0;
     }

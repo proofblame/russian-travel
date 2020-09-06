@@ -31,27 +31,25 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
     .cover {
         min-height: calc(100vw / 1.6);
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 928px) {
+    .cover {
+        margin-bottom: 88px;
+    }
 
     .cover:hover::before {
         opacity: 0.3;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 736px) {
     .cover {
         margin-bottom: 64px;
-    }
-}
-
-@media screen and (max-width: 435px) {
-    .cover {
-        margin-bottom: 64px;
+        row-gap: 16px;
     }
 }
