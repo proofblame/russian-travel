@@ -50,58 +50,7 @@
 @import url(../blocks//footer/__copyright/footer__copyright.css);
 @import url(../blocks//footer/__link/footer__link.css);
 
-/* --100-- */
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-Thin.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-Thin.woff") format("woff");
-    font-style: normal;
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-ThinItalic.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-ThinItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 100;
-}
-
-/* --200-- */
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-ExtraLight.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-ExtraLight.woff") format("woff");
-    font-style: normal;
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-ExtraLightItalic.woff2")
-            format("woff2"),
-        url("../vendor/fonts/Inter//Inter-ExtraLightItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 200;
-}
-
-/* --300-- */
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-Light.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-Light.woff") format("woff");
-    font-style: normal;
-    font-weight: 300;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-LightItalic.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-LightItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 300;
-}
-
+/* --fonts-- */
 /* --400-- */
 @font-face {
     font-family: "Inter";
@@ -109,40 +58,6 @@
         url("../vendor/fonts/Inter/Inter-Regular.woff") format("woff");
     font-style: normal;
     font-weight: 400;
-}
-
-/* --500-- */
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-Medium.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-Medium.woff") format("woff");
-    font-style: normal;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-MediumItalic.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-MediumItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 500;
-}
-
-/* --600-- */
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-SemiBold.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-SemiBold.woff") format("woff");
-    font-style: normal;
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2"),
-        url("../vendor/fonts/Inter//Inter-SemiBoldItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 600;
 }
 
 /* --700-- */
@@ -154,32 +69,6 @@
     font-weight: 700;
 }
 
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-BoldItalic.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-BoldItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 700;
-}
-
-/* --800-- */
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-ExtraBold.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-ExtraBold.woff") format("woff");
-    font-style: normal;
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-ExtraBoldItalic.woff2")
-            format("woff2"),
-        url("../vendor/fonts/Inter/Inter-ExtraBoldItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 800;
-}
-
 /* --900-- */
 @font-face {
     font-family: "Inter";
@@ -189,14 +78,7 @@
     font-weight: 900;
 }
 
-@font-face {
-    font-family: "Inter";
-    src: url("../vendor/fonts/Inter/Inter-BlackItalic.woff2") format("woff2"),
-        url("../vendor/fonts/Inter/Inter-BlackItalic.woff") format("woff");
-    font-style: italic;
-    font-weight: 900;
-}
-
+/* --в случае аварии расскомментировать-- */
 * {
     outline-width: 1px;
     outline-style: solid;
