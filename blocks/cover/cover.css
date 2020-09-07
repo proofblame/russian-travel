@@ -1,14 +1,11 @@
 .cover {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 32px;
-    grid-gap: 32px;
     align-items: center;
-    align-content: center;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     min-height: 740px;
     max-width: 100%;
     margin: 0 auto 92px;
@@ -34,8 +31,7 @@
 
 @media screen and (max-width: 1184px) {
     .cover {
-        min-height: calc(100vw / 1.6);
-        
+        min-height: 62.5vw;
     }
 }
 
@@ -53,7 +49,5 @@
 @media screen and (max-width: 736px) {
     .cover {
         margin-bottom: 64px;
-        gap: 16px;
-        grid-gap: 16px;
     }
 }

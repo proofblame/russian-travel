@@ -23,12 +23,12 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
             <figure class="lead__gallery">
-                <img class="lead__image" src="images/lead-polka.jpg" alt="Плацкарт вагона">
+                <div class="lead__box"><img class="lead__image" src="images/lead-polka.jpg" alt="Плацкарт вагона"></div>
                 <figcaption class="lead__caption"> ваша полка — верхняя</figcaption>
             </figure>
         </section>
 
-        <article class="intro">
+        <section class="intro">
             <h2 class="intro__title">Чего мы там не видели?</h2>
             <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
                 планируют
@@ -44,15 +44,15 @@
                 вашего
                 отпуска.</p>
             <ul class="intro__list">
-                <li>Часовых поясов 11</li>
-                <li">Объектов природного наследия ЮНЕСКО 12</li>
-                <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                <li>Природных заповедников 105</li>
-                <li> Аэропортов 241</li>
+                <li>Часовых поясов <span class="intro__list-number">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-number">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-number">16</span></li>
+                <li>Природных заповедников <span class="intro__list-number">105</span></li>
+                <li> Аэропортов <span class="intro__list-number">241</span></li>
             </ul>
-        </article>
+        </section>
 
-        <div class="photo-grid">
+        <section class="photo-grid">
             <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="Вид из окна поезда">
             <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="Гора Атхарва Тулси">
             <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="Собака на сене">
@@ -65,9 +65,9 @@
             <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="Вулкан Камчатки">
             <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="Побережье Байкала">
             <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="Парк Ергаки">
-        </div>
+        </section>
 
-        <div class="places">
+        <section class="places">
             <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
@@ -90,7 +90,7 @@
                         наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету,
                         окуная в
                         спокойствие природы и запах стального, прохладного моря.</p>
-                    </div>
+                </div>
             </article>
 
             <article class="place">
@@ -196,15 +196,14 @@
                     <p>
                 </div>
             </article>
-        </div>
+        </section>
 
         <section class="cover">
             <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
+                <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до
+                    Байкала на электричках.</p>
             </a>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до
-                Байкала на электричках.</p>
-
         </section>
     </main>
 

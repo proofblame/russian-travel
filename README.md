@@ -49,7 +49,6 @@
     
     @media screen and (max-width: 928px) {
         .lead
-            .lead__image
             .lead__caption
         .intro
         .photo-grid
@@ -79,6 +78,8 @@
         .photo-grid
         .places
         .place
+            .place__title
+            .place__paragraph
         .cover
             .cover__title
             .cover__subtitle

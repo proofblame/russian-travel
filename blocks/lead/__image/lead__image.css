@@ -1,11 +1,8 @@
 .lead__image {
     object-fit: fill;
     max-width: 100%;
-    min-height: 615px;
-}
-
-@media screen and (max-width: 928px) {
-    .lead__image {
-        min-height: calc(100vw / 1.6);
-    }
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }

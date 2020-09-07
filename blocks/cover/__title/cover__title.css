@@ -3,7 +3,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    margin: 0 auto;
+    margin: 0 auto 32px;
     max-width: 560px;
     z-index: 1;
 }
@@ -13,5 +13,6 @@
         max-width: calc(100vw - 16px * 2);
         font-size: 32px;
         line-height: 35px;
+        margin-bottom: 16px;
     }
 }
