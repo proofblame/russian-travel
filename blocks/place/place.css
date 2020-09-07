@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 48px 40px;
+    grid-gap: 48px 40px;
     max-width: 100%;
     margin-bottom: 80px;
 }
@@ -14,6 +15,7 @@
     .place {
         max-width: calc(100vw - 48px * 2);
         column-gap: 32px;
+        grid-gap: 48px 32px;
     }
 }
 
@@ -21,6 +23,7 @@
     .place {
         max-width: calc(100vw - 24px * 2);
         column-gap: 28px;
+        grid-gap: 48px 28px;
     }
 }
 
@@ -30,5 +33,6 @@
         margin-bottom: 72px;
         max-width: calc(100vw - 16px * 2);
         row-gap: 32px;
+        grid-gap: 32px;
     }
 }

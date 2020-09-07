@@ -1,7 +1,6 @@
 .header__link {
     text-decoration-line: none;
-    align-self: flex-start;
-    margin-right: auto;
+    justify-self: flex-start;
 }
 
 .header__link:hover {

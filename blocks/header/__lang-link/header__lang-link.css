@@ -4,6 +4,7 @@
     line-height: 28px;
     text-decoration-line: underline;
     color: #fff;
+    margin-right: 18px;
 }
 
 .header__lang-link:hover {
@@ -12,6 +13,7 @@
 
 .header__lang-link:last-child {
     text-decoration-line: none;
+    margin-right: 0;
 }
 
 @media screen and (max-width: 736px) {

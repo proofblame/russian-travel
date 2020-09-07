@@ -1,9 +1,10 @@
 .cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 32px;
+    grid-gap: 32px;
+    align-items: center;
+    align-content: center;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,6 +51,7 @@
 @media screen and (max-width: 736px) {
     .cover {
         margin-bottom: 64px;
-        row-gap: 16px;
+        gap: 16px;
+        grid-gap: 16px;
     }
 }

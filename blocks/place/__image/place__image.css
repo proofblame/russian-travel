@@ -2,39 +2,3 @@
     object-fit: cover;
     max-width: 100%;
 }
-
-/* @media screen and (max-width: 1080px) {
-    .place__image {
-        min-height: calc((100vw - 96px) / 1.6);
-    }
-}
-
-@media screen and (max-width: 928px) {
-    .place__image {
-        max-width: 100vw;
-    }
-}
-
-@media screen and (max-width: 736px) {
-    .place__image {
-        margin-bottom: 64px;
-    }
-} */
-
-/* @media screen and (max-width: 1080px) {
-    .place__image {
-        max-width: calc((100vw - 48px * 2) / 2);
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
-        max-width: calc((100vw - 24px * 2) / 2);
-    }
-}
-/* 
-@media screen and (max-width: 611px) {
-    .place__image {
-        object-fit: initial;
-        max-width: 100%;
-} */ */
