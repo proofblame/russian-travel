@@ -2,5 +2,14 @@
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
+    margin: 0;
+    padding: 0;
+    max-width: 720px;
+    list-style-type: none;
+}
 
+@media screen and (max-width: 736px) {
+    .intro__list {
+        max-width: calc(100vw - 16px * 2);
+    }
 }

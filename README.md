@@ -1,23 +1,115 @@
 # Проект 3: Путешествие по России
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+**Table of Contents**
 
-**Интро**
+[TOCM]
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+[TOC]
 
-**Figma**
+### About
+------------
+Данный проект является третьей проектной работой курса Адаптивная вёрстка и работа с макетом,  а также последней работой по изучению верстки.
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+### Installation and Usage
+------------
+Для ознакомления с результатами самостоятельной работы необходимо пройти по данной [ссылке](https://proofblame.github.io/russian-travel/ "Путешествие по России").
 
-**Картинки**
+### Features
+------------
+- HTML5;
+- CSS3;
+- Flexbox;
+- Grid;
+- Responsive layout;
+- Adaptive layout;
+- Relative size;
+- Local fonts used;
+- BEM technology;
+- File structure - NESTED.
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+### Breaking points
+------------
+Для облегчения поиска, ниже представлен список точек разрыва в которых использованы блоки и элементы.
 
-Удачи!
+    @media screen and (max-width: 1280px) {
+        .header
+        .photo-grid
+        .cover
+        .footer
+    }
+
+    @media screen and (max-width: 1080px) {
+        .lead
+            .lead__subtitle
+        .intro
+        .places
+        .place
+    }
+
+    @media screen and (max-width: 1024px) {
+        .photo-grid 
+    }
+    
+    @media screen and (max-width: 928px) {
+        .lead
+            .lead__image
+            .lead__caption
+        .intro
+        .photo-grid
+        .places
+        .place
+            .place__title
+            .place__paragraph
+        .cover
+        .footer
+    }
+    
+    @media screen and (max-width: 755px) {
+        .place__website
+    }
+    
+    @media screen and (max-width: 736px) {
+        .header
+            .header__lang-link 
+        .lead
+            .lead__title
+            .lead__subtitle
+        .intro
+            .intro__title
+            .intro__text
+            .intro__list
+        .photo-grid
+        .places
+        .place
+        .cover
+            .cover__title
+            .cover__subtitle
+        .footer
+        .footer__links
+        .footer__copyright
+    }
+    
+    @media screen and (max-width: 611px) {
+        .place__title
+    }
+
+### Contributing
+------------
+Критика и указания на допущенные ошибки приветствуются!
+
+### Plans
+------------
+Дописать все вендорные префиксы;
+Задизайнить форму, через которую пользователи смогут отправить комментарий.
+###  Authors
+------------
+Marokko Timur - студент Яндекс Практикума.
+
+### Gratitude
+------------
+- Семье и близким, поддерживающим в период обучения и бессонных ночей.
+-  Яндекс Практикуму, предоставившему возможность осуществить свою мечту и работать в удовольствие.
+
+### License
+------------
+[MIT License](https://choosealicense.com/licenses/mit/ "MIT License")
