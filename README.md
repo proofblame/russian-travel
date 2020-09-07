@@ -28,8 +28,11 @@
     @media screen and (max-width: 1280px) {
         .header
         .photo-grid
-        .cover
         .footer
+    }
+
+        @media screen and (max-width: 1184px) {
+        .cover
     }
 
     @media screen and (max-width: 1080px) {
@@ -65,6 +68,7 @@
     @media screen and (max-width: 736px) {
         .header
             .header__lang-link 
+            .header__logo
         .lead
             .lead__title
             .lead__subtitle
@@ -86,6 +90,8 @@
     @media screen and (max-width: 611px) {
         .place__title
     }
+
+
 
 ### Contributing
 ------------

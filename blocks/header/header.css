@@ -1,7 +1,7 @@
 .header {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     align-items: flex-end;
+    grid-template-columns: repeat(2, 1fr);
     gap: 18px;
     grid-gap: 18px;
     max-width: 100%;
