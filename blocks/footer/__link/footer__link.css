@@ -25,6 +25,7 @@
     
     .footer__link:last-child {
         margin-right: 0;
+        margin-bottom: 0;  
     }
 
     .footer__link:hover {

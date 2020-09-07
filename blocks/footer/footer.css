@@ -21,7 +21,7 @@
 @media screen and (max-width: 736px) {
     .footer {
         grid-template-columns: 1fr;
-        gap: 86px;
-        grid-gap: 86px;
+        gap: 48px;
+        grid-gap: 48px;
     }
 }
