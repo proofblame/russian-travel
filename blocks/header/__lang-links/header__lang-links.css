@@ -1,9 +1,10 @@
 .header__lang-links {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    list-style-type: none;
+    justify-content: end;
     gap: 18px;
     grid-gap: 18px;
-    justify-self: flex-end;
-    list-style-type: none;
     padding: 0;
     margin: 0;
 }
