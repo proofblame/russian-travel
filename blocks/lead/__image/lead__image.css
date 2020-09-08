@@ -1,8 +1,4 @@
 .lead__image {
-    object-fit: fill;
+    object-fit: cover;
     max-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
